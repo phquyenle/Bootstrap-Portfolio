@@ -5,53 +5,57 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-<body>
+<body style="padding-bottom:80px;">
+
 <!-- first row for the header-->
-    <header id="header1">
+<nav class="navbar navbar-expand-sm bg-light navbar-light mb-4">
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-<a class="navbar-brand" href="index.html" style= color:#4aaaa5;>Phuong Quyen Le</a>
-<!-- here is where the nav bar going to be-->
-<nav>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-</nav>
-</div>
-</div>
-        </div>
-    </header>
-    <!-- Second row with the About me -->
-    <div class="row">
-        <div class="col-md-12">
-<section class="section1" style= "color: #4aaaa5 ;">
-    <h1> About Phuong Quyen Le</h1>
-</div>
-</div>
+            <div class="row">
+                <div class="col-2">
+                    <a class="navbar-brand push-sm-1 ml-lg-3 ml-sm-2" href="index.html" style="color:#4aaaa5">Phuong Quyen Le</a>
+                </div>
+                <div class="co-3 offset-4 offset-md-6 offset-xl-7">
+                    <ul class="navbar-nav">
 
-
-<!-- Third row with the pic and body -->
-    <div class="media">
-        <div class="row">
-            <div class= "col-2">
-        <img src="assets/images/me.jpg" class="img-thumbnail" alt="picture of me">
+                        <li class="nav-item justify-content-end">
+                            <a class="nav-link active" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li> 
+                    </ul>
+                </div>
             </div>
-        <div class="media-body">
-            <div class="col-10">
-          <h5 class="mt-0">  </h5>
-          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur praesentium soluta nesciunt quia ipsa molestias corrupti facere! Illum quaerat, architecto quo ducimus ipsam magni incidunt! Deleniti recusandae placeat sed.</p>
-<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, nobis explicabo. Quasi ratione quo amet, porro non corporis molestiae necessitatibus vero. Facilis deleniti vero cumque nisi iste necessitatibus similique veniam!</p>
+        </div>
+    </div>
+</nav>
     
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatum! Doloremque debitis amet officiis rerum temporibus eum minima consectetur laboriosam iusto, ab, sapiente aut, cum expedita alias perferendis cupiditate iste?</p>
+    <!-- Second row with the About me -->
+    <div id="main-container" class="container">
+        <div class="row">
+            <section class="main-section col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style=color:#4aaaa5;>About Phuong Quyen Le</h1>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+        <img src="assets/images/me.jpg" class="auth-image float-md-left img-fluid rounded m-md-3" height="auto" style=
+        "height:auto;width:250px ;" alt="picture of me">
+          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur praesentium soluta nesciunt quia ipsa molestias corrupti facere! Illum quaerat, architecto quo ducimus ipsam magni incidunt! Deleniti recusandae placeat sed.</p>
+          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, nobis explicabo. Quasi ratione quo amet, porro non corporis molestiae necessitatibus vero. Facilis deleniti vero cumque nisi iste necessitatibus similique veniam!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatum! Doloremque debitis amet officiis rerum temporibus eum minima consectetur laboriosam iusto, ab, sapiente aut, cum expedita alias perferendis cupiditate iste?</p>
 </div>
        </div> 
       
